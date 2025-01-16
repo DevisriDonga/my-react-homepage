@@ -1,0 +1,57 @@
+.hr-line {
+  color:rgb(204, 204, 204);
+  height:4px;
+  background-color: rgb(179, 179, 179);
+}
+
+.models-section p {
+  font-size: 15px;
+    margin-bottom: 20px;
+}
+.models-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  .models-section h2 {
+    font-size: 20px;
+    color: #003350;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+ .models-container {
+  display: flex;
+    justify-content: space-around;
+ }
+  
+  .models-item {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height:20%;
+    width:20%;
+    padding:20px;
+    flex-wrap: wrap;
+  }
+  
+ 
+  
+  .model-item img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .model-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color:#003350;
+  }
+  
+  .model-code {
+    font-size: 14px;
+    color: #666;
+  }
+  

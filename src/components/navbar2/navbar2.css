@@ -1,0 +1,25 @@
+/* src/styles/NavbarSecondary.css */
+
+  
+  .navbar-secondary ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+  }
+  
+  .navbar-secondary li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold
+  }
+  
+  .navbar-secondary li a:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+  }
+  
